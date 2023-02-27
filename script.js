@@ -1,6 +1,8 @@
 alert(" Привіт. Введи підряд два любих числа!");
+
 let numOne = prompt("Введи первое число!", [0]);
 let numTwo = prompt("Введи второе число!", [0]);
+
 numOne = Number(numOne);
 numTwo = Number(numTwo);
 let sum = numOne + numTwo;
