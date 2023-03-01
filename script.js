@@ -3,15 +3,15 @@ alert(" Привіт. Введи підряд два любих числа!");
 let numOne = prompt("Введи первое число!");
 let numTwo = prompt("Введи второе число!");
 
-numOne = Number(numOne);
-numTwo = Number(numTwo);
-let sum = numOne + numTwo;
-let difference = numOne - numTwo;
-let multiply = numOne * numTwo;
-let quotient = numOne / numTwo;
+if (numOne !== `` && numTwo !== `` && numOne !== ` ` && numTwo !== ` `) {
+  numOne = Number(numOne);
+  numTwo = Number(numTwo);
+  let sum = numOne + numTwo;
+  let difference = numOne - numTwo;
+  let multiply = numOne * numTwo;
+  let quotient = numOne / numTwo;
 
-if (numOne !== false || numTwo !== false) {
-  if (numTwo == 0) {
+  if (numTwo == 0 && numTwo == `0`) {
     quotient = `Ділення на нуль!`;
   }
   if (numOne < numTwo && numOne > 0) {
