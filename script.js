@@ -1,7 +1,7 @@
 alert(" Привіт. Введи підряд два любих числа!");
 
-let numOne = prompt("Введи первое число!");
-let numTwo = prompt("Введи второе число!");
+let numOne = prompt("Введи перше число!");
+let numTwo = prompt("Введи друге число!");
 
 if (numOne !== `` && numTwo !== `` && numOne !== ` ` && numTwo !== ` `) {
   numOne = Number(numOne);
@@ -12,11 +12,11 @@ if (numOne !== `` && numTwo !== `` && numOne !== ` ` && numTwo !== ` `) {
   let quotient = numOne / numTwo;
 
   if (numTwo == 0) {
-    quotient = `Ділення на нуль!`;
+    quotient = `Ділення на нуль !`;
   }
   if (numOne < numTwo) {
     let rezus;
-    rezus = confirm(`Ви впевненні що хочете продовжити операцію`);
+    rezus = confirm(`Ви впевненні що хочете продовжити операцію ?`);
     if (rezus == true) {
       alert(`Різниця: ${difference}`);
     }
