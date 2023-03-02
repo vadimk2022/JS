@@ -23,5 +23,5 @@ if (numOne !== `` && numTwo !== `` && numOne !== ` ` && numTwo !== ` `) {
   }
   alert(`Сума: ${sum}` + `\nРізниця: ${difference}` + `\nДодаток: ${multiply}` + `\nДілення: ${quotient}`);
 } else {
-  alert("Помилка");
+  alert("Помилка !");
 }
