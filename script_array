@@ -3,7 +3,6 @@ let sum = 0;
 let numMin = arr[0];
 let numMax = arr[0];
 let i;
-let a;
 let hesh = ``;
 
 for (i = 0; i < arr.length; i++) {
