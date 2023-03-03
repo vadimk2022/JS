@@ -1,4 +1,4 @@
-const arr = [22, -4, -32, `fff`, 57, -26, 33, -20, `zzz`, -10];
+const arr = [22, -4, -32, `fff`, 57, -96, 33, -20, `zzz`, 80];
 let sum = 0;
 let numMin = arr[0];
 let numMax = arr[0];
@@ -6,7 +6,7 @@ let i;
 
 for (i = 0; i < arr.length; i++) {
   if (isNaN(arr[i])) {
-    alert(arr[i]);
+    alert(`Елемент масиву не є числом: >>> ${arr[i]}`);
   } else {
     sum += arr[i];
     if (arr[i] < numMin) {
@@ -17,5 +17,4 @@ for (i = 0; i < arr.length; i++) {
     }
   }
 }
-
-alert(`Cумма: ${sum}` + `\nДлина массива: ${arr.length}` + `\nМінімальне значення масиву: ${numMin}` + `\nМаксимальне значення масиву: ${numMax}`);
+alert(`Cума: ${sum};\nДовжина масиву: ${arr.length};\nМінімальне значення масиву: ${numMin};\nМаксимальне значення масиву: ${numMax};`);
