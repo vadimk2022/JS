@@ -6,7 +6,7 @@ const person = {
 };
 
 function getObjectProperties(obj) {
-  for (var key in obj) {
+  for (let key in obj) {
     return true;
   }
   return false;
